@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#damage-display {
+    font-weight: bold;
+    margin-left: auto;
+    padding: 5px 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+#abilities {
+    margin-bottom: 20px;
+}
+
+.ability-button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ability-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#timeline {
+    margin-top: 20px;
+}
+
+.timeline-item {
+    padding: 5px;
+    margin: 2px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
