@@ -4,6 +4,8 @@ based on applying Rend and tracking seconds of its ticks, what is pretty complic
 there is all necessary data like current time, current second of Rend and same information 
 for each previously pressed ability.
 
+![image](https://github.com/user-attachments/assets/3fef63e0-938f-49cc-acb6-bc42ccf781bc)
+
 ### Possible improvements
 - Add ability to write rules to get rid of using abilities manually, so program can simulate rotations 
 using these rules for huge amount of time to have large data sample.
